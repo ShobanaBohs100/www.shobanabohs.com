@@ -1,6 +1,7 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-
+import { useStaticQuery, graphql } from "gatsby"
+import JSONData from "../content/portfolio.json"
 const pageStyles = {
   color: "#232129",
   padding: 96,
@@ -136,9 +137,18 @@ const links = [
   },
 ]
 
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage: React.FC<PageProps> = (props) => {
+  const data = useStaticQuery(graphql`
+  query  {
+    site {
+      siteMetadata{
+        title
+      }
+    }
+  }`)
   return (
     <main style={pageStyles}>
+      <pre>{JSON.stringify(JSONData, null, 2)}</pre>
       <h1 style={headingStyles}>
         Congratulations
         <br />
