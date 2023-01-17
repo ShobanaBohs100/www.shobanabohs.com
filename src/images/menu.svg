@@ -1,0 +1,29 @@
+ <svg
+    width="16"
+    height="13"
+    viewBox="0 0 16 13"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    >
+    <rect
+        width="15.7375"
+        height="2.06096"
+        rx="1.03048"
+        transform="matrix(-1 0 0 1 15.7383 0.161438)"
+        fill="#3D4852"
+    ></rect>{" "}
+    <rect
+        width="15.7375"
+        height="2.06096"
+        rx="1.03048"
+        transform="matrix(-1 0 0 1 15.7383 10.2835)"
+        fill="#3D4852"
+    ></rect>{" "}
+    <rect
+        width="15.7375"
+        height="2.06096"
+        rx="1.03048"
+        transform="matrix(-1 0 0 1 15.7383 5.22247)"
+        fill="#3D4852"
+    ></rect>
+</svg>
