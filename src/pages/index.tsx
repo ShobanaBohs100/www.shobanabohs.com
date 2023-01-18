@@ -40,7 +40,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
         <Services />
         <FeaturedPortfolio />
         <Experience />
-        <Articles />
+        {/* <Articles /> */}
         <Testimonials />
         <Education />
         <Contact />
