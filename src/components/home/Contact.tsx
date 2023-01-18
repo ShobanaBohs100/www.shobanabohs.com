@@ -3,6 +3,7 @@
 import React from "react";
 import { CONTAINER_MAX_WIDTH } from "../../utils/constants";
 import Button from "../ui-kit/Button";
+import { SocialMedia } from "./Hero";
 
 type Props = {};
 
@@ -14,6 +15,10 @@ export default function ({}: Props) {
           maxWidth: CONTAINER_MAX_WIDTH,
           margin: "auto",
           textAlign: "center",
+          display: " flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: ["2rem", "3rem"],
         }}
       >
         <h3
@@ -22,6 +27,7 @@ export default function ({}: Props) {
             lineHeight: 1.2,
             fontFamily: "body",
             textAlign: "center",
+            marginBottom: 0,
           }}
         >
           Lets build your product together!
@@ -37,6 +43,7 @@ export default function ({}: Props) {
             Get in touch
           </Button>
         </a>
+        <SocialMedia />
       </div>
     </div>
   );

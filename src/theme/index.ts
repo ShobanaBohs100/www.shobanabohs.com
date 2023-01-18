@@ -6,6 +6,7 @@ const theme = {
     primary: "linear-gradient(140deg, #03c1a2 0%, #06bedd 50%, #417cd6 75%)",
     muted: "#656D72",
     menu: "#606f7b",
+    primaryDark: "#0c3d87",
     modes: {
       dark: {
         text: "#232E35",
@@ -14,7 +15,7 @@ const theme = {
           "linear-gradient(140deg, #03c1a2 0%, #06bedd 50%, #417cd6 75%)",
         muted: "#656D72",
         menu: "#606f7b",
-        primaryDark: "#019d91",
+        primaryDark: "#0c3d87",
       },
     },
   },
