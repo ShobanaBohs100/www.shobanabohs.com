@@ -3,14 +3,15 @@ const theme = {
   colors: {
     text: "#232E35",
     background: "#FBFBFB",
-    primary: "#00c1a2",
+    primary: "linear-gradient(140deg, #03c1a2 0%, #06bedd 50%, #417cd6 75%)",
     muted: "#656D72",
     menu: "#606f7b",
     modes: {
       dark: {
         text: "#232E35",
         background: "#FBFBFB",
-        primary: "#00c1a2",
+        primary:
+          "linear-gradient(140deg, #03c1a2 0%, #06bedd 50%, #417cd6 75%)",
         muted: "#656D72",
         menu: "#606f7b",
         primaryDark: "#019d91",
