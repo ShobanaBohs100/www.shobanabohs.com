@@ -3,11 +3,12 @@ import React from "react";
 
 export interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {}
 
-export default function Button({ children }: ButtonProps) {
+export default function Button({ children, ...props }: ButtonProps) {
   return (
     <button
+      {...props}
       sx={{
-        bg: "primary",
+        background: "primary",
         color: "#fff",
         borderRadius: 5,
         fontSize: "1.4rem",
@@ -16,6 +17,8 @@ export default function Button({ children }: ButtonProps) {
         padding: "0 3.2rem",
         fontFamily: "body",
         cursor: "pointer",
+        fontWeight: "600",
+        textTransform: "uppercase",
         "&:hover": {
           bg: "primaryDark",
         },

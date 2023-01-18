@@ -23,6 +23,7 @@ export default function Header() {
         top: 0,
         background: "#fff",
         padding: ["2rem", "2rem"],
+        zIndex: 1000,
       }}
     >
       <header
@@ -62,15 +63,15 @@ const MainMenu = () => {
       <li>
         <a href="#projects">Projects</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#articles">Articles</a>
-      </li>
+      </li> */}
       <li>
         <a href="#testimonials">Testimonials</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#education">Education</a>
-      </li>
+      </li> */}
     </>
   );
 
