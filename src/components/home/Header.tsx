@@ -69,9 +69,9 @@ const MainMenu = () => {
       <li>
         <a href="#testimonials">Testimonials</a>
       </li>
-      <li>
+      {/* <li>
         <a href="#education">Education</a>
-      </li>
+      </li> */}
     </>
   );
 

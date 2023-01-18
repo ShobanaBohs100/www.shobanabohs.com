@@ -3,9 +3,10 @@ import React from "react";
 
 export interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {}
 
-export default function Button({ children }: ButtonProps) {
+export default function Button({ children, ...props }: ButtonProps) {
   return (
     <button
+      {...props}
       sx={{
         background: "primary",
         color: "#fff",

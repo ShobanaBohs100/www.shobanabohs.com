@@ -42,7 +42,7 @@ const IndexPage: React.FC<PageProps> = (props) => {
         {/* <Experience /> */}
         {/* <Articles /> */}
         <Testimonials />
-        <Education />
+        {/* <Education /> */}
         <Contact />
         <Footer />
       </main>
