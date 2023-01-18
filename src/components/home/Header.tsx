@@ -23,6 +23,7 @@ export default function Header() {
         top: 0,
         background: "#fff",
         padding: ["2rem", "2rem"],
+        zIndex: 1000,
       }}
     >
       <header
