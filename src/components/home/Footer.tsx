@@ -22,7 +22,7 @@ export default function ({}: Props) {
       >
         <div></div>
         <p sx={{ fontSize: "1rem", fontFamily: "body", color: "#fff" }}>
-          ©️ Shobana Thangaraj {new Date().getFullYear()}
+        &#169; Shobana Thangaraj {new Date().getFullYear()}
         </p>
       </div>
     </div>
