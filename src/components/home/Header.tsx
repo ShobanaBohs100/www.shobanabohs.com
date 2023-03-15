@@ -79,6 +79,7 @@ const MainMenu = () => {
     return (
       <div sx={{ cursor: "pointer" }} onClick={toggleOpen}>
         {open ? <CloseIcon /> : <MenuSvg />}
+        
         <ul
           sx={{
             padding: "2rem 4rem",
